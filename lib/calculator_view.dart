@@ -10,35 +10,11 @@ class CalculatorView extends StatefulWidget {
 
 class _CalculatorViewState extends State<CalculatorView> {
   final List<List<String>> buttons = [
-    [
-      'AC',
-      '+/-',
-      '%',
-      '÷',
-    ],
-    [
-      '7',
-      '8',
-      '9',
-      'x',
-    ],
-    [
-      '4',
-      '5',
-      '6',
-      '-',
-    ],
-    [
-      '1',
-      '2',
-      '3',
-      '+',
-    ],
-    [
-      '0',
-      '.',
-      '=',
-    ]
+    ['AC','+/-','%','÷',],
+    ['7','8','9','x',],
+    ['4','5','6','-',],
+    ['1','2','3','+',],
+    ['0','.','=',]
   ];
 
   var calculation = "";
