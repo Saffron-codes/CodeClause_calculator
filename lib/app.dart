@@ -8,8 +8,8 @@ class Calculator extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home:  const CalculatorView(),
-      theme: ThemeData(brightness: Brightness.light),
-      darkTheme: ThemeData(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Colors.black,
         elevatedButtonTheme: ElevatedButtonThemeData(
